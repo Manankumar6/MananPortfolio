@@ -153,7 +153,7 @@ span {
     border-radius: 50%;
     font-size: 3rem;
     color: var(--main-color);
-    margin: 3rem 1.5rem 3rem 0;
+    margin: 1rem 1.5rem 0.5rem 0;
     padding: 0 3px;
     transition: 0.5s ease;
 
@@ -348,12 +348,41 @@ background: var(--second-bg-color);
 margin-bottom: 3rem;
 
 }
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
 
+   
+}
+.details{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.skills{
+    text-align: left;
+    padding: 2%;
+        margin-bottom: 3%;
+}
+
+
+.contact_info span{
+    font-size: 2em;
+    color: white;
+
+}
 .contact form{
+
     max-width: 70rem;
+    width: 100%;
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3rem;
+
 }
 
 .contact form .input-box{
@@ -508,6 +537,9 @@ margin-bottom: 3rem;
         font-size: 50%;
     }
     .contact form .input-box input{
+        width: 100%;
+    }
+    .details{
         width: 100%;
     }
  }
